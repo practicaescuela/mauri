@@ -1,0 +1,126 @@
+#icono{
+    color: rgb(253, 250, 250);
+    margin-top: 5px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+#body{
+    background: linear-gradient(50deg,#15ff00, #8f008f);
+    height: 50vh;
+    background-image: linear-gradient(rgba(19, 17, 17, 0.845), rgba(70, 63, 63, 0.9)), url(ropa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+.container-details{
+    width: 90%;
+    margin: auto;
+}
+details{
+  
+    font-size: 1.5rem;
+    font-family: fantasy;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+}
+
+p{
+    display: inline;
+    font-size: 1.5rem
+}
+#calzadoS, #remeraS, #pantaloneS, .accesorioS{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+   
+}
+#calzadoS{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(calzados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#remeraS{
+   
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(remeras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+} 
+
+#pantaloneS{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(pantalon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#accesorioS{
+    background-image: linear-gradient(rgba(244, 225, 225, 0.635), rgba(134, 103, 103, 0.964)), url(gorra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.sub{
+  
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    font-size: 3rem;
+    gap: 20px;
+
+}
+summary:hover{
+    cursor: pointer;
+}
+h3{
+    font-variant-caps:normal ;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#id{
+    padding: 0 10% 2% 10%;
+    font-size: 2rem;
+    text-align: center;
+     color: #ffffff95;
+
+}
+.container-footer{
+ padding: 20px;
+}
+.co{
+    padding: 5px 30px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 8px auto;
+    gap: 16px;
+   box-shadow: 0 0 1px 2px wheat;
+    border-radius: 20px;
+    
+}
+
+i{
+font-size: 50px;
+}
+i:hover{
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    background: linear-gradient(90deg, pink, purple);
+    padding-bottom: 20px;
+   
+}
+
+@media (width < 700px) {
+    .sub{
+        font-size: 1.8rem;
+    }
+}

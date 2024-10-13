@@ -1,0 +1,211 @@
+#icono{
+    color: rgb(253, 250, 250);
+    margin-top: 5px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(red,yellow,purple, rgb(0, 255, 0), skyblue, blue);
+}
+.cuadros{
+    display: grid;
+    border: 0.5rem solid black;
+    background-color: rgb(218, 218, 218);
+    grid-template-columns: min-content min-content;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+img{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    height: 17rem;
+    width: 15rem;
+}
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    border: 0.4rem black solid;
+    background-color: darkmagenta;
+    margin: 1.5rem;
+    font-size: 3rem;
+}
+button{
+    height: 4rem;
+    grid-column: 1/3;
+}
+i{
+    display:inline;
+    padding-left: 0.8rem;
+}
+p{
+    display: inline;
+    font-size: 2.5rem;
+}
+.co{
+    margin: 2rem;
+    display: flex;
+    border: 3px;
+    border-style:ridge;
+    border-color: red;
+    justify-content: center;
+    border-radius: 40px;
+}
+.down{
+    width: 350px;
+    margin: 0 auto;
+}
+.e7ipower{
+    animation-name: movimiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.samsung{
+    animation-name: movimiento1;
+    animation-duration: 10s;
+
+    animation-iteration-count: infinite;
+}
+.motog72{
+    animation-name: movimiento2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.clenovo{
+    animation-name: movimiento2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.csamsung{
+    animation-name: movimiento1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.chp{
+    animation-name: movimiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.tsamsung{
+    animation-name: movimiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.tlenovo{
+    animation-name: movimiento1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.tmicrosoft{
+    animation-name: movimiento2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.ajbl{
+    animation-name: movimiento1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.abose{
+    animation-name: movimiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.ahaylou{
+    animation-name: movimiento2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.pyamaha{
+    animation-name: movimiento2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.pbose{
+    animation-name: movimiento1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.psamsung{
+    animation-name: movimiento;
+    animation-duration: 10s;
+
+    animation-iteration-count: infinite;
+}
+@keyframes movimiento {
+        0%{
+            transform: translate(0rem);
+        }
+        15%{
+            transform: translate(0rem);
+        }
+        33%{
+            transform: translate(36.3rem);
+        }
+        48%{
+            transform: translate(36.3rem);
+        }
+        66%{
+            transform: translate(-36.3rem);
+        }
+        81%{
+            transform: translate(-36.3rem);
+        }
+        100%{
+            transform: translate(0rem);
+        }
+}
+@keyframes movimiento1 {
+        0%{
+            transform: translate(0rem);
+        }
+        15%{
+            transform: translate(0rem);
+        }
+        38%{
+            transform: translate(-72.6rem);
+        }
+        48%{
+            transform: translate(-72.6rem);
+        }
+        66%{
+            transform: translate(-36.3rem);
+        }
+        81%{
+            transform: translate(-36.3rem);
+        }
+        100%{
+            transform: translate(0rem);
+        }
+}
+@keyframes movimiento2 {
+    0%{
+        transform: translate(0rem);
+    }
+    15%{
+        transform: translate(0rem);
+    }
+    33%{
+        transform: translate(36.3rem);
+    }
+    48%{
+        transform: translate(36.3rem);
+    }
+    66%{
+        transform: translate(72.3rem);
+    }
+    81%{
+        transform: translate(72.3rem);
+    }
+    100%{
+        transform: translate(0rem);
+    }
+}
